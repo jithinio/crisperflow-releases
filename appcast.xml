@@ -4,59 +4,59 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Crisper</title>
         <item>
-            <title>0.1.0</title>
-            <pubDate>Wed, 12 Aug 2026 14:53:54 +0530</pubDate>
-            <sparkle:version>100</sparkle:version>
-            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <title>0.1.1</title>
+            <pubDate>Wed, 12 Aug 2026 15:33:26 +0530</pubDate>
+            <sparkle:version>101</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<!--
-	The first release. Written for someone installing Crisper for the first
-	time, so it introduces rather than enumerates — there is no previous
-	version to diff against.
+	Second release, so this one is a diff — unlike 0.1.0.html, which had to
+	introduce the app.
+
+	The headline is deliberately the paste fix rather than "added a menu bar".
+	A menu bar is a thing the app has; being unable to paste into the capture
+	field is a thing that happened to you.
 -->
+<h2>You can paste into the capture panel</h2>
 <p>
-	The first build of Crisper. Every other memory tool waits for you to go
-	looking; this one asks a different question at save time — not
-	<em>where does this go?</em> but <em>when should this come back to me?</em>
-	— and answers it with a situation rather than a folder.
+	⌘V now works — and so do ⌘X, ⌘C, ⌘Z and ⌘A. They never did before, which is
+	worth explaining: on macOS these are menu commands rather than something
+	text fields do on their own, and Crisper had no menu for them to live in.
+	Copying a link to save it and finding you had to retype it was the single
+	roughest edge in 0.1.0.
 </p>
 
-<h2>Capture, four ways</h2>
+<h2>Keyboard shortcuts</h2>
 <ul>
-	<li><strong>⌃Space</strong> from anywhere opens the composer, over whatever you are working in. It never steals focus, and it remembers where you left it.</li>
-	<li><strong>Drag onto the menu bar icon</strong> — files, a link, a selection of text. Up to eight at once, each classified on its own.</li>
-	<li><strong>Talk to it.</strong> Voice notes are transcribed on this Mac and never leave it.</li>
-	<li><strong>Drop it in the panel</strong> and drag more in while it is open.</li>
+	<li><strong>⌘N</strong> — new capture, from anywhere in the app.</li>
+	<li><strong>⌘F</strong> — jump straight to search in the main window.</li>
+	<li><strong>⌘W</strong> and <strong>⌘M</strong> — close and minimise the window.</li>
+	<li><strong>⌘Q</strong> — quit, without hunting through the "•••" menu.</li>
 </ul>
-
-<h2>It works out what you saved</h2>
 <p>
-	Crisper proposes a kind, a title and a trigger while you type, using Apple's
-	on-device model where your Mac supports it and a built-in classifier where it
-	does not. The guess is shown before anything is written, and one tap corrects
-	it. Nothing is saved until you press Drop.
+	⌃Space still opens the capture panel from any app, and still does not
+	interrupt what you are doing.
 </p>
 
-<h2>It comes back on its own</h2>
+<h2>Updates</h2>
 <p>
-	Bind something to an app or a category and it surfaces when you get there —
-	a font when you open Figma, a reference when you open the browser. The menu
-	bar icon carries a count and nothing else: no banner, no sound, no window
-	taking your place. Open it when you want it.
+	<strong>Check for Updates…</strong> now sits in the Crisper menu, beside
+	About. Crisper checks quietly on its own once a day, downloads in the
+	background, and then waits — you will find an <em>Install Update</em> line in
+	the menu when one is ready, never a window in front of your work. You always
+	see what changed before anything is installed.
 </p>
 
-<h2>Good to know</h2>
+<h2>Smaller things</h2>
 <ul>
-	<li>Requires macOS 26 or later. On Apple silicon with Apple Intelligence enabled you get on-device classification; without it everything still works, with simpler guesses.</li>
-	<li>Everything lives on this Mac. No account, no sign-up, no server.</li>
-	<li>Crisper keeps itself up to date and will show you what changed before installing anything.</li>
-	<li>This is an alpha, and it is honest about being one — iCloud sync, semantic search and the feedback loop that learns from what you open are all still to come.</li>
+	<li>The installer window now shows you where to drag the app, instead of two bare icons.</li>
+	<li>Crisper identifies itself to macOS as a productivity app, so it files correctly in Launchpad and Spotlight.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/jithinio/crisperflow-releases/releases/download/v0.1.0/Crisper-0.1.0.zip" length="3852338" type="application/octet-stream" sparkle:edSignature="UdWCw/aGRk18OqFQV5QSBHbGn6J4c/OlLFh68ugVIR0nUGSnA3ViExNclt7c8hALUIw2YUiRiW0KZpARPh6rAA=="></enclosure>
+            <enclosure url="https://github.com/jithinio/crisperflow-releases/releases/download/v0.1.1/Crisper-0.1.1.zip" length="3867335" type="application/octet-stream" sparkle:edSignature="KGdxdP2EZTOmlphvKPZxeDiFx7TIJ/05WmEts2kUpBz0G4X518Tuxam4Vc+BlQU5xxu2eJxi5WExiX25UBgbBQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: BKXnNMBCbAgPL3A1OVWYlYYh9mv5sPX6KYtN4RAyP09aBrRVnxkef3tc21J3GnO+DPBw6iUZDK8Fna9voQmyDQ==
-length: 3304
+edSignature: XtzFhr0EWVh3IuthcdHvKylrJ54VmlV1b4lSXwZDw2ZDcYr+J1jOTQSVPvdskYeYdsnRaBlaHplSnUOUt9yFDg==
+length: 2913
 -->
