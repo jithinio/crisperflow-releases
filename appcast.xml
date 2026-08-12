@@ -1,0 +1,62 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Crisper</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Wed, 12 Aug 2026 14:53:54 +0530</pubDate>
+            <sparkle:version>100</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<!--
+	The first release. Written for someone installing Crisper for the first
+	time, so it introduces rather than enumerates — there is no previous
+	version to diff against.
+-->
+<p>
+	The first build of Crisper. Every other memory tool waits for you to go
+	looking; this one asks a different question at save time — not
+	<em>where does this go?</em> but <em>when should this come back to me?</em>
+	— and answers it with a situation rather than a folder.
+</p>
+
+<h2>Capture, four ways</h2>
+<ul>
+	<li><strong>⌃Space</strong> from anywhere opens the composer, over whatever you are working in. It never steals focus, and it remembers where you left it.</li>
+	<li><strong>Drag onto the menu bar icon</strong> — files, a link, a selection of text. Up to eight at once, each classified on its own.</li>
+	<li><strong>Talk to it.</strong> Voice notes are transcribed on this Mac and never leave it.</li>
+	<li><strong>Drop it in the panel</strong> and drag more in while it is open.</li>
+</ul>
+
+<h2>It works out what you saved</h2>
+<p>
+	Crisper proposes a kind, a title and a trigger while you type, using Apple's
+	on-device model where your Mac supports it and a built-in classifier where it
+	does not. The guess is shown before anything is written, and one tap corrects
+	it. Nothing is saved until you press Drop.
+</p>
+
+<h2>It comes back on its own</h2>
+<p>
+	Bind something to an app or a category and it surfaces when you get there —
+	a font when you open Figma, a reference when you open the browser. The menu
+	bar icon carries a count and nothing else: no banner, no sound, no window
+	taking your place. Open it when you want it.
+</p>
+
+<h2>Good to know</h2>
+<ul>
+	<li>Requires macOS 26 or later. On Apple silicon with Apple Intelligence enabled you get on-device classification; without it everything still works, with simpler guesses.</li>
+	<li>Everything lives on this Mac. No account, no sign-up, no server.</li>
+	<li>Crisper keeps itself up to date and will show you what changed before installing anything.</li>
+	<li>This is an alpha, and it is honest about being one — iCloud sync, semantic search and the feedback loop that learns from what you open are all still to come.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/jithinio/crisperflow-releases/releases/download/v0.1.0/Crisper-0.1.0.zip" length="3852338" type="application/octet-stream" sparkle:edSignature="UdWCw/aGRk18OqFQV5QSBHbGn6J4c/OlLFh68ugVIR0nUGSnA3ViExNclt7c8hALUIw2YUiRiW0KZpARPh6rAA=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: BKXnNMBCbAgPL3A1OVWYlYYh9mv5sPX6KYtN4RAyP09aBrRVnxkef3tc21J3GnO+DPBw6iUZDK8Fna9voQmyDQ==
+length: 3304
+-->
