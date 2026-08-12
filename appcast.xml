@@ -5,7 +5,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Crisper</title>
         <item>
             <title>0.1.1</title>
-            <pubDate>Wed, 12 Aug 2026 15:33:26 +0530</pubDate>
+            <pubDate>Wed, 12 Aug 2026 15:38:36 +0530</pubDate>
             <sparkle:version>101</sparkle:version>
             <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
@@ -28,7 +28,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 <h2>Keyboard shortcuts</h2>
 <ul>
-	<li><strong>⌘N</strong> — new capture, from anywhere in the app.</li>
+	<li><strong>⌘N</strong> — new capture, whenever Crisper has focus.</li>
 	<li><strong>⌘F</strong> — jump straight to search in the main window.</li>
 	<li><strong>⌘W</strong> and <strong>⌘M</strong> — close and minimise the window.</li>
 	<li><strong>⌘Q</strong> — quit, without hunting through the "•••" menu.</li>
@@ -47,6 +47,15 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 	see what changed before anything is installed.
 </p>
 
+<h2>One thing you will notice</h2>
+<p>
+	While the main window is open, Crisper appears in the Dock and in the menu
+	bar at the top of the screen — that is simply how macOS gives an app menus at
+	all. Close the window and it goes back to being only the icon in your menu
+	bar. The capture panel never does this: ⌃Space still opens it without taking
+	you out of what you are doing.
+</p>
+
 <h2>Smaller things</h2>
 <ul>
 	<li>The installer window now shows you where to drag the app, instead of two bare icons.</li>
@@ -57,6 +66,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: XtzFhr0EWVh3IuthcdHvKylrJ54VmlV1b4lSXwZDw2ZDcYr+J1jOTQSVPvdskYeYdsnRaBlaHplSnUOUt9yFDg==
-length: 2913
+edSignature: bUiaj8Nk7craZH2yYVYvovpl9/G6XLDRS5Z+w6Px4l6elTIY9M5fMeqcRsXE2PHbVSE34O98ehRnhzNxaPdsBg==
+length: 3305
 -->
