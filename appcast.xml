@@ -4,68 +4,53 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Crisper</title>
         <item>
-            <title>0.1.1</title>
-            <pubDate>Wed, 12 Aug 2026 15:38:36 +0530</pubDate>
-            <sparkle:version>101</sparkle:version>
-            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <title>0.1.2</title>
+            <pubDate>Wed, 12 Aug 2026 16:29:44 +0530</pubDate>
+            <sparkle:version>102</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<!--
-	Second release, so this one is a diff — unlike 0.1.0.html, which had to
-	introduce the app.
+	A maintenance release with genuinely nothing user-facing in it — the only
+	commit since 0.1.1 is release engineering.
 
-	The headline is deliberately the paste fix rather than "added a menu bar".
-	A menu bar is a thing the app has; being unable to paste into the capture
-	field is a thing that happened to you.
+	The hard case for this file, and the reason it does not just say "bug fixes
+	and improvements": that phrase is what an update reads as when nobody
+	bothered, which is the exact failure CLAUDE.md's rule about empty changelogs
+	is guarding against. Saying plainly that the app is unchanged is more
+	trustworthy than inventing a feature to justify the window, and it is short
+	enough that nobody feels they wasted the read.
+
+	It is also the first release cut by the restructured Scripts/release.sh,
+	which commits and tags before it builds. That is worth one honest sentence
+	to a user of a notarized app distributed outside the App Store, and worth no
+	more than one.
 -->
-<h2>You can paste into the capture panel</h2>
+<h2>Nothing in the app has changed</h2>
 <p>
-	⌘V now works — and so do ⌘X, ⌘C, ⌘Z and ⌘A. They never did before, which is
-	worth explaining: on macOS these are menu commands rather than something
-	text fields do on their own, and Crisper had no menu for them to live in.
-	Copying a link to save it and finding you had to retype it was the single
-	roughest edge in 0.1.0.
+	This one is housekeeping. No new features, no fixes — 0.1.2 behaves exactly
+	like 0.1.1, and there is nothing here you need to go and look at.
 </p>
 
-<h2>Keyboard shortcuts</h2>
-<ul>
-	<li><strong>⌘N</strong> — new capture, whenever Crisper has focus.</li>
-	<li><strong>⌘F</strong> — jump straight to search in the main window.</li>
-	<li><strong>⌘W</strong> and <strong>⌘M</strong> — close and minimise the window.</li>
-	<li><strong>⌘Q</strong> — quit, without hunting through the "•••" menu.</li>
-</ul>
+<h2>Why it exists</h2>
 <p>
-	⌃Space still opens the capture panel from any app, and still does not
-	interrupt what you are doing.
+	Crisper is distributed directly rather than through the App Store, so the
+	machinery that builds, signs and delivers these updates is ours to get right.
+	Every release is now built from a recorded snapshot of its own source and
+	tagged before it is built, rather than after — which means any version you
+	are running can be traced back to exactly the code it came from. That
+	guarantee is not worth much on its own; it is worth something when a later
+	release needs to be checked, and it only works if it is in place beforehand.
 </p>
-
-<h2>Updates</h2>
 <p>
-	<strong>Check for Updates…</strong> now sits in the Crisper menu, beside
-	About. Crisper checks quietly on its own once a day, downloads in the
-	background, and then waits — you will find an <em>Install Update</em> line in
-	the menu when one is ready, never a window in front of your work. You always
-	see what changed before anything is installed.
+	This release is also the first end-to-end test of the updater itself — the
+	quiet daily check, the background download, and the <em>Install Update</em>
+	line waiting in the menu instead of a window in front of your work.
 </p>
-
-<h2>One thing you will notice</h2>
-<p>
-	While the main window is open, Crisper appears in the Dock and in the menu
-	bar at the top of the screen — that is simply how macOS gives an app menus at
-	all. Close the window and it goes back to being only the icon in your menu
-	bar. The capture panel never does this: ⌃Space still opens it without taking
-	you out of what you are doing.
-</p>
-
-<h2>Smaller things</h2>
-<ul>
-	<li>The installer window now shows you where to drag the app, instead of two bare icons.</li>
-	<li>Crisper identifies itself to macOS as a productivity app, so it files correctly in Launchpad and Spotlight.</li>
-</ul>
 ]]></description>
-            <enclosure url="https://github.com/jithinio/crisperflow-releases/releases/download/v0.1.1/Crisper-0.1.1.zip" length="3867335" type="application/octet-stream" sparkle:edSignature="KGdxdP2EZTOmlphvKPZxeDiFx7TIJ/05WmEts2kUpBz0G4X518Tuxam4Vc+BlQU5xxu2eJxi5WExiX25UBgbBQ=="></enclosure>
+            <enclosure url="https://github.com/jithinio/crisperflow-releases/releases/download/v0.1.2/Crisper-0.1.2.zip" length="3867389" type="application/octet-stream" sparkle:edSignature="Yp8ZoFtE/l9h/uQ3tSlM8dq0dVpr+Jf/QeFtjcoiFJ/BCneNbtB4Ml8AEakkitoVjgFPKqEaE6FpBTKPPArtCQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: bUiaj8Nk7craZH2yYVYvovpl9/G6XLDRS5Z+w6Px4l6elTIY9M5fMeqcRsXE2PHbVSE34O98ehRnhzNxaPdsBg==
-length: 3305
+edSignature: ijaxkKvYnl/2dTjLv23FpLClzit4WTTkLo6MUHxQYhPbFCTybTqJTdukfalrvp7lpyB09WtUhTcNf2IioA3eBQ==
+length: 2896
 -->
